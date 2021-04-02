@@ -1,0 +1,26 @@
+{
+	"dir" : "ltr",
+	"lang" : "en",
+	"name" : "EFAYDA",
+	"scope" : "/",
+	"display" : "browser",
+	"start_url" : "https://www.efayda.ml/",
+	"short_name" : "EFAYDA",
+	"theme_color" : "transparent",
+	"description" : "Efayda provides best UI UX Design, Web Design development, Branding, Graphic Design and digital marketing services in India & across the world.",
+	"orientation" : "any",
+	"background_color" : "transparent",
+	"related_applications" : [],
+	"prefer_related_applications" : false,
+	"icons" : [
+		{
+			"src": "https://www.efayda.ml/favicon.ico",
+			"sizes": "16x16 32x32 48x48"
+		},
+		{
+			"src": "https://www.efayda.ml/favicon.ico",
+			"sizes": "16x16"
+		}],
+	"url" : "https://www.efayda.ml",
+	"generated" : "true"
+}
