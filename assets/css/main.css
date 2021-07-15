@@ -1899,7 +1899,19 @@ input, select, textarea {
 					display: none;
 				}
 
+				
+			}
+			
+			@media (max-width:52px) and (min-width:736px) {
+				
+				#footerNav{
+					display: none;
+					 
+				}
+
+				
 		}
+		
 
 	body {
 		padding-top: 3em;
