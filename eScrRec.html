@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>eScrRec</title>
+</head>
+
+<body>
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">Free Screen Recorder v1.0</h2>
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Our screen recorder is Free as in Freedom. We do not upload the video. Your video is for you to keep always. </h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Hope you enjoy using the Free Screen Recorder. Please leave a feedback.</p>
+          </div>   
+          
+           
+              <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+                <div class="p-2 sm:w-1/2 w-full">
+                  <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                      <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                      <path d="M22 4L12 14.01l-3-3"></path>
+                    </svg>
+                    <span class="title-font font-medium">Free.</span>
+                  </div>
+                </div>
+
+                <div class="p-2 sm:w-1/2 w-full">
+                    <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                        <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                        <path d="M22 4L12 14.01l-3-3"></path>
+                      </svg>
+                      <span class="title-font font-medium">Many Formats.</span>
+                    </div>
+                  </div>
+
+                  <div class="p-2 sm:w-1/2 w-full">
+                    <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                        <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                        <path d="M22 4L12 14.01l-3-3"></path>
+                      </svg>
+                      <span class="title-font font-medium">No Watermark.</span>
+                    </div>
+                  </div>
+
+
+                <div class="p-2 sm:w-1/2 w-full">
+                  <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                      <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                      <path d="M22 4L12 14.01l-3-3"></path>
+                    </svg>
+                    <span class="title-font font-medium">Unlimited Recording.</span>
+                  </div>
+                </div>
+                          </div>
+               <div>
+                <video autoplay height='480' width="640" muted></video>
+               </div>
+              <div class="flex">
+                <span><a id="download" style="display: none;"><button type="button" class="btn btn-primary mb-4"> Download</button></a></span>
+                 
+                 
+              <button id="stop" class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" disabled>Stop</button>
+              <button onclick="recordAudio()" class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Record Audio</button>
+              <button onclick="recordVideo()" class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Record Video</button>
+              <button onclick="recordScreen()" class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Record Screen</button>
+            </div>                            
+           
+        </div>
+      </section>
+</body>
+</html>
